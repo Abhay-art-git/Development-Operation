@@ -1,0 +1,17 @@
+Command	                      Description	                                      Example Command
+ps	                     Show running processes.	                                    ps aux
+top	                     Dynamic process viewer.	                                     top
+htop	                   Enhanced version of top.	                                     htop
+kill	                   Send a signal to a process.	                               kill <PID>
+killall	                 Kill processes by name.	                                   killall <process_name>
+uptime	                 System uptime and load.	                                   uptime
+whoami	                 Current logged-in user.	                                     whoami
+env	                     Display environment variables.	                                env
+strace	                 Trace system calls of a process.	                             strace -p <PID>
+systemctl	               Manage systemd services.	                                    systemctl status <service_name>
+journalctl	             View system logs.	                                          journalctl -xe
+free	                   Display memory usage.	                                      free -h
+vmstat	                 Report virtual memory statistics.	                          vmstat 1
+iostat	                 Report CPU and I/O statistics.	                               iostat
+lsof	                   List open files by processes.	                               lsof
+dmesg	                   Print kernel ring buffer messages.                          	dmesg
