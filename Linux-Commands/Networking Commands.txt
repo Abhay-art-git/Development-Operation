@@ -1,0 +1,13 @@
+Command	                      Description	                                     Sample Usage
+ping	                   Test connectivity to a host.	                        ping google.com
+ifconfig / ip             a	Display network interfaces.	                       ifconfig or ip a
+netstat / ss	               Show network connections.	                       netstat -tuln or ss -tuln
+wget	                      Download files via HTTP/FTP.	                     wget http://example.com/file.zip
+curl	                      Transfer data using URL syntax.	                   curl -O http://example.com/file.zip
+nc (Netcat)	                 Network debugging and data transfer.	              nc -zv 192.168.1.1 80
+tcpdump	                     Capture and analyze network packets.	              tcpdump -i eth0
+iptables	                   Configure firewall rules.	                        iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+traceroute	                 Trace the path packets take to a network host.	    traceroute example.com
+nslookup	                   Query DNS to obtain domain name or
+                                  IP address mapping.	                            nslookup example.com
+ssh	                         Securely connect to a remote host.                 	ssh user@example.com
