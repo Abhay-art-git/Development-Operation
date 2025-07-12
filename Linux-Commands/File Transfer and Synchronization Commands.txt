@@ -1,0 +1,7 @@
+Command	                            Description	                                                                 Example Command
+scp	                               Securely copy files over SSH.	                                          scp user@remote:/path/to/file /local/destination
+rsync                              Efficiently sync files and directories.  	                              rsync -avz /local/directory/ user@remote:/path/to/destination
+ftp	                               Transfer files using the File Transfer Protocol.                         	ftp ftp.example.com
+sftp	                             Securely transfer files using SSH File Transfer Protocol.	                sftp user@remote:/path/to/file
+wget	                             Download files from the web.                                              	wget http://example.com/file.zip
+curl	                             Transfer data from or to a server.	                                       curl -O http://example.com/file.zip
