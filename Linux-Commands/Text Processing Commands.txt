@@ -1,0 +1,11 @@
+Command	                                Description                                	Example Command
+awk	                               Pattern scanning and processing.              	 awk '{print $1}' file.txt
+sed	                               Stream editor for filtering/modifying text.	   sed 's/old/new/g' file.txt
+cut	                               Remove sections from lines of text.	           cut -d':' -f1 /etc/passwd
+sort	                             Sort lines of text.	                           sort file.txt
+grep	                             Search for patterns in text.	                    grep 'pattern' file.txt
+wc	                               Count words, lines, and characters.	             wc -l file.txt
+paste	                             Merge lines of files.	                           paste file1.txt file2.txt
+join	                             Join lines of two files on a common field.       	join file1.txt file2.txt
+head	                             Output the first part of files.	                  head -n 10 file.txt
+tail	                             Output the last part of files.	                    tail -n 10 file.txt
