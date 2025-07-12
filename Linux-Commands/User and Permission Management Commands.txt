@@ -1,0 +1,10 @@
+Command                        	Description	                                          Example Command
+passwd	                     Change user password.	                                  passwd <username>
+adduser / useradd	            Add a new user.	                                        adduser <username> or useradd <username>
+deluser / userdel	             Delete a user.	                                        deluser <username> or userdel <username>
+usermod	                       Modify user account.	                                  usermod -aG <group> <username>
+groups	                       Show group memberships.	                              groups <username>
+sudo	                         Execute commands as root.	                            sudo <command>
+chage	                         Change user password expiry information.	              chage -l <username>
+id	                           Display user identity information.                    	id <username>
+newgrp	                       Log in to a new group.	                                newgrp <group>
